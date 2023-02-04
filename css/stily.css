@@ -1,0 +1,104 @@
+/* Container holding the image and the text */
+.text-cinter {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .h1 {
+    font-weight: 900;
+    font-size: 40px;
+  }
+  .p{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    /* button */
+  .button {
+    border-radius: 4px;
+    background-color: #3e1ef4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+ 
+  /* Awesome*/
+  .p-cinter{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e1ef4;
+  }
+  .h1-cinter {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+  }
